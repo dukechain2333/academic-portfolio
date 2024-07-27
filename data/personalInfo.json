@@ -10,6 +10,8 @@
     "X": "X URL",
     "instagram": "Instagram URL",
     "facebook": "Facebook URL",
-    "google_scholar": "Google Scholar URL"
+    "google_scholar": "Google Scholar URL",
+    "orcid": "ORCID URL",
+    "kaggle": "Kaggle URL"
   }
 }
