@@ -2,6 +2,7 @@
   "name": "John Doe",
   "domain": "Software Development",
   "email": "test@gamil.com",
+  "site_description": "This is a personal website",
   "social_media": {
     "cv": "CV URL",
     "linkedin": "Linkedin URL",
