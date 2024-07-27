@@ -1,0 +1,14 @@
+{
+  "name": "John Doe",
+  "domain": "Software Development",
+  "email": "test@gamil.com",
+  "social_media": {
+    "cv": "CV URL",
+    "linkedin": "Linkedin URL",
+    "github": "Github URL",
+    "X": "X URL",
+    "instagram": "Instagram URL",
+    "facebook": "Facebook URL",
+    "google_scholar": "Google Scholar URL"
+  }
+}
