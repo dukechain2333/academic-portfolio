@@ -1,14 +1,17 @@
 import React from "react";
-
 import {config} from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+
 import Content from "@/app/components/Content";
 import Greetings from "@/app/components/Greetings";
 import NameCard from "@/app/components/NameCard";
 import News from "@/app/components/News";
 import About from "@/app/components/About";
+import Education from "@/app/components/Education";
+
 import personalInfo from '../../data/personalInfo.json';
 import news from '../../data/news.json'
+import experience from '../../data/experience.json'
 
 config.autoAddCss = false
 
@@ -24,6 +27,8 @@ export default function Home() {
             {news.news.length > 0 && <News/>}
 
             {personalInfo.self_description_detail.length > 0 && <About/>}
+
+            {experience.education.length > 0 && <Education/>}
         </Content>
     );
 }

@@ -3,6 +3,7 @@ import Image from "next/image";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEnvelope, faFile, faSchool} from '@fortawesome/free-solid-svg-icons';
 import personalInfo from '../../../data/personalInfo.json';
+import SocialMedia from "@/app/components/SocialMedia";
 
 function NameCard() {
     return (
@@ -43,6 +44,9 @@ function NameCard() {
                                 {personalInfo.email}
                             </a>
                         </div>
+                    </div>
+                    <div className="flex flex-col md:flex-row items-center md:items-center mt-4 justify-center md:justify-end">
+                        <SocialMedia />
                     </div>
                 </div>
             </div>

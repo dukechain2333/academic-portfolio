@@ -5,7 +5,7 @@ import React from "react";
 
 function About() {
     return (
-        <div className="flex flex-col m-auto leading max-w-5xl w-full items-start p-5 mb-10">
+        <div className="flex flex-col m-auto leading max-w-5xl w-full items-start mb-10">
             <div className="font-bold text-xl md:text-3xl mb-10">
                 About Me
             </div>

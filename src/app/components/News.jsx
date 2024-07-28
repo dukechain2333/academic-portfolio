@@ -7,7 +7,7 @@ export default function News() {
     const sortedNews = news.news.sort((a, b) => new Date(b.time) - new Date(a.time));
 
     return (
-        <div className="w-full p-4 mb-10">
+        <div className="w-full mb-10">
             <div className="font-bold text-xl md:text-3xl mb-10">
                 Recent News
             </div>

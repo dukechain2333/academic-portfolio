@@ -1,0 +1,83 @@
+{
+  "job": [
+    {
+      "title": "Software Engineer",
+      "company": "Company Name",
+      "location": "City, State",
+      "startDate": "Month Year",
+      "endDate": "Month Year",
+      "description": [
+        "Description of the job",
+        "Description of the job",
+        "Description of the job"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "title": "Volunteer",
+      "company": "Company Name",
+      "location": "City, State",
+      "startDate": "Month Year",
+      "endDate": "Month Year",
+      "description": "Description of the volunteer work"
+    }
+  ],
+  "extracurricular": [
+    {
+      "title": "Extracurricular Activity",
+      "company": "Company Name",
+      "location": "City, State",
+      "startDate": "Month Year",
+      "endDate": "Month Year",
+      "description": "Description of the extracurricular activity"
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "school": "Brown University",
+      "degree": "M.S. in Computational Biology",
+      "status": "In Progress",
+      "start_date": "09/2023",
+      "end_date": "05/2025",
+      "gpa": "3.5 / 4.0",
+      "courses": [
+        "Data Structures",
+        "Algorithms",
+        "Machine Learning",
+        "Computer Vision",
+        "Data Structures",
+        "Algorithms",
+        "Machine Learning",
+        "Computer Vision",
+        "Data Structures",
+        "Algorithms",
+        "Machine Learning",
+        "Computer Vision"
+      ],
+      "other_info": [],
+      "href": "https://www.example.com"
+    },
+    {
+      "id": 2,
+      "school": "Brown University",
+      "degree": "B.A. in Computational Biology",
+      "status": "Graduated",
+      "start_date": "09/2019",
+      "end_date": "05/2023",
+      "gpa": "3.5 / 4.0",
+      "courses": [
+        "Data Structures",
+        "Algorithms",
+        "Machine Learning",
+        "Computer Vision"
+      ],
+      "other_info": [
+        "Graduated with Honors",
+        "Dean's List"
+      ],
+      "href": ""
+    }
+  ]
+}
