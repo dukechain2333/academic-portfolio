@@ -7,7 +7,7 @@ import SocialMedia from "@/app/components/SocialMedia";
 
 function NameCard() {
     return (
-        <div className="flex flex-col items-center w-full p-4 rounded-lg shadow-lg bg-amber-50 mb-10">
+        <div className="flex flex-col items-center w-full p-4 md:pr-10 rounded-lg shadow-lg bg-amber-50 mb-10">
             <div className="flex flex-col md:flex-row items-center w-full justify-between">
                 <div className="flex-shrink-0">
                     <Image
@@ -15,7 +15,7 @@ function NameCard() {
                         alt="Profile Picture"
                         width={240}
                         height={240}
-                        className="rounded-full"
+                        className="rounded-full aspect-square object-cover md:ml-5"
                     />
                 </div>
                 <div className="mt-4 md:mt-0 md:ml-4 text-center md:text-right w-full">
