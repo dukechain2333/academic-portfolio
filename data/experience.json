@@ -45,27 +45,21 @@
       "href": ""
     }
   ],
-  "volunteer": [
-    {
-      "id": 1,
-      "title": "Volunteer",
-      "company": "Company Name",
-      "location": "City, State",
-      "start_date": "Month Year",
-      "end_date": "Month Year",
-      "description": [],
-      "href": ""
-    }
-  ],
   "extracurricular": [
     {
       "id": 1,
       "title": "Extracurricular Activity",
       "company": "Company Name",
       "location": "City, State",
+      "project_name": "Project Name",
+      "instructor": "",
       "start_date": "Month Year",
       "end_date": "Month Year",
-      "description": [],
+      "description": [
+        "Description of the activity",
+        "Description of the activity",
+        "Description of the activity"
+      ],
       "href": ""
     }
   ],

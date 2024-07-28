@@ -1,19 +1,19 @@
 import experience from '../../../data/experience.json';
 import React from "react";
-import ExperienceCard from "./ExperienceCard";
+import ExperienceCard from "@/app/components/ExperienceCard";
 
-
-export default function Experience() {
+export default function Extracurricular() {
     return (
         <div className="w-full mb-10">
             <div className="font-bold text-xl md:text-3xl mb-10">
-                Experience
+                Extracurricular
             </div>
             <div>
-                {experience.job.map((item) => (
+                {experience.extracurricular.map((item) => (
                     <ExperienceCard key={item.id} item={item}/>
                 ))}
             </div>
         </div>
     );
 }
+
