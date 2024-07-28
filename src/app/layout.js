@@ -1,6 +1,6 @@
 import {Inter} from "next/font/google";
 import "./globals.css";
-import personalInfo from "../../data/personalInfo.json";
+import personalInfo from '../../data/personalInfo.json';
 
 const inter = Inter({subsets: ["latin"]});
 

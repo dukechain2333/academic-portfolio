@@ -1,8 +1,7 @@
 "use client";
 
-import personalInfo from '../../../data/personalInfo.json';
 import SocialMedia from './SocialMedia';
-
+import personalInfo from '../../../data/personalInfo.json';
 
 function Footer() {
 

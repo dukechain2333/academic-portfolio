@@ -3,11 +3,21 @@ import React from "react";
 import {config} from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import Content from "@/app/components/Content";
+import Greetings from "@/app/components/Greetings";
+import NameCard from "@/app/components/NameCard";
+import News from "@/app/components/News";
+import personalInfo from '../../data/personalInfo.json';
 
 config.autoAddCss = false
 
 export default function Home() {
+
     return (
-        <Content></Content>
+        <Content>
+            {personalInfo.greetings_on_homepage &&
+                <Greetings greetings_on_homepage={personalInfo.greetings_on_homepage}/>}
+            <NameCard/>
+            <News/>
+        </Content>
     );
 }
