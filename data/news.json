@@ -3,7 +3,8 @@
     {
       "id": 1,
       "time": "11/11/2021",
-      "content": "Congratulations to John Doe for winning the Best Paper Award at the International Conference on Computational Biology!"
+      "content": "Congratulations to John Doe for winning the Best Paper Award at the International Conference on Computational Biology!",
+      "href": "https://www.example.com"
     },
     {
       "id": 2,
