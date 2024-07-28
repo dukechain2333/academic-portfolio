@@ -1,0 +1,19 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "time": "11/11/2021",
+      "content": "Congratulations to John Doe for winning the Best Paper Award at the International Conference on Computational Biology!"
+    },
+    {
+      "id": 2,
+      "time": "10/01/2020",
+      "content": "John Doe has been selected as a finalist for the prestigious Young Investigator Award in Bioinformatics."
+    },
+    {
+      "id": 3,
+      "time": "09/15/2023",
+      "content": "John Doe has been invited to give a keynote presentation at the upcoming Machine Learning in Genomics Workshop."
+    }
+  ]
+}
