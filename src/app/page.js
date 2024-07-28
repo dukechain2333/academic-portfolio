@@ -6,6 +6,7 @@ import Content from "@/app/components/Content";
 import Greetings from "@/app/components/Greetings";
 import NameCard from "@/app/components/NameCard";
 import News from "@/app/components/News";
+import About from "@/app/components/About";
 import personalInfo from '../../data/personalInfo.json';
 import news from '../../data/news.json'
 
@@ -21,6 +22,8 @@ export default function Home() {
             <NameCard/>
 
             {news.news.length > 0 && <News/>}
+
+            {personalInfo.self_description_detail.length > 0 && <About/>}
         </Content>
     );
 }
