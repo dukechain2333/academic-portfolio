@@ -3,6 +3,7 @@ import {useState} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faBars, faTimes} from '@fortawesome/free-solid-svg-icons';
 import personalInfo from '../../../data/personalInfo.json';
+import publications from '../../../data/publications.json';
 
 function Header({scrolled}) {
     const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,7 @@ function Header({scrolled}) {
                 <div className="flex items-center space-x-4">
                     <nav className="hidden md:flex items-center space-x-4">
                         <NavLink title="About" href="/"/>
-                        <NavLink title="Publications" href="/publications"/>
+                        {publications.publications.length > 0 && (<NavLink title="Publications" href="/publications"/>)}
                         <NavLink title="Research" href="/research"/>
                         <NavLink title="Projects" href="/projects"/>
                     </nav>

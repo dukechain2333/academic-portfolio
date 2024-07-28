@@ -1,0 +1,50 @@
+{
+  "publications": [
+    {
+      "id": "1",
+      "href": "",
+      "year": "2022",
+      "abstract": [],
+      "keywords": [],
+      "citation": "Doe, J., Smith, J. Deep Learning for Genomic Data Analysis.",
+      "bold_name": "Doe, J.",
+      "status": "In Progress"
+    },
+    {
+      "id": "2",
+      "href": "https://www.example.com",
+      "year": "2021",
+      "abstract": [
+        "Machine learning has revolutionized the field of drug discovery by enabling the rapid identification of novel therapeutic compounds. In this article, we provide an overview of the latest machine learning techniques used in drug discovery and discuss their potential applications in precision medicine. We also highlight key challenges and future directions for research in this exciting field.",
+        "Also to be noted, this is the second paragraph of the abstract."
+      ],
+      "keywords": [
+        "Deep Learning",
+        "Genomics",
+        "Machine Learning",
+        "Bioinformatics"
+      ],
+      "citation": "Doe, J., Smith, J. (2021). Machine Learning for Drug Discovery. Science, 345, 678-689. https://doi.org/10.1126/science.12345",
+      "bold_name": "Doe, J.",
+      "status": "Under Review"
+    },
+    {
+      "id": "3",
+      "href": "https://www.example.com",
+      "year": "2020",
+      "abstract": [
+        "Computational biology has emerged as a powerful tool for advancing precision medicine, enabling researchers to analyze complex biological data with unprecedented accuracy. In this review, we discuss the latest computational biology techniques and their applications in personalized medicine. We also highlight key challenges and opportunities in the field and provide insights into future directions for research.",
+        "Also to be noted, this is the second paragraph of the abstract."
+      ],
+      "keywords": [
+        "Deep Learning",
+        "Genomics",
+        "Machine Learning",
+        "Bioinformatics"
+      ],
+      "citation": "Smith, J, Doe, J. (2020). Computational Biology for Precision Medicine. Cell, 12, 123-135. https://doi.org/10.1016/j.cell.12345",
+      "bold_name": "Doe, J.",
+      "status": "Published"
+    }
+  ]
+}
