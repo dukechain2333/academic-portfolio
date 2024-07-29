@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Machine Learning for Drug Discovery",
+      "description": [
+        "Machine learning has revolutionized the field of drug discovery by enabling the rapid identification of novel therapeutic compounds. In this project, we developed a deep learning model to predict the binding affinity of small molecules to target proteins, with the goal of accelerating the drug discovery process. Our model achieved state-of-the-art performance on a benchmark dataset and demonstrated the potential to significantly reduce the time and cost associated with drug development.",
+        "Drug discovery is a complex and time-consuming process that involves the identification of lead compounds, optimization of their chemical properties, and evaluation of their biological activity. Traditional methods for predicting drug-target interactions are often limited by their reliance on experimental data and lack of scalability. Machine learning offers a promising alternative by leveraging large-scale datasets to learn complex patterns and make accurate predictions."
+      ],
+      "image": "/images/test_project.jpeg",
+      "href": {
+        "Github": "https://www.example.com",
+        "Demo": "https://www.example.com",
+        "File": "/project1.pdf"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Machine Learning for Drug Discovery",
+      "description": [
+        "Machine learning has revolutionized the field of drug discovery by enabling the rapid identification of novel therapeutic compounds. In this project, we developed a deep learning model to predict the binding affinity of small molecules to target proteins, with the goal of accelerating the drug discovery process. Our model achieved state-of-the-art performance on a benchmark dataset and demonstrated the potential to significantly reduce the time and cost associated with drug development."
+      ],
+      "image": "",
+      "href": {
+        "Github": "https://www.example.com",
+        "Showcase": "https://www.example.com"
+      }
+    }
+  ]
+}
