@@ -1,6 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 import projects from '../../../data/projects.json';
+import CustomLink from "@/app/components/CustomLink";
 
 export default function Projects() {
     return (
@@ -16,16 +17,6 @@ export default function Projects() {
 }
 
 const defaultImage = '/images/default_project.jpeg';
-
-const ExtLink = ({href, children}) => (
-	<a
-		href={href}
-		className="border-b-[1px] border-gray-600 transition hover:bg-gray-200 rounded-t-sm mr-2"
-		target="_blank"
-		rel="noopener noreferrer">
-		{children}
-	</a>
-);
 
 function ProjectCard({project}) {
     const {id, title, description, image, href} = project;
@@ -55,7 +46,7 @@ function ProjectCard({project}) {
                 )}
                 <p className="text-gray-500 flex justify-end text-md bold">
                     {Object.entries(href).map(([key, value]) => (
-                        <ExtLink href={value} key={key}>[{key}]</ExtLink>
+                        <CustomLink href={value} key={key}>[{key}]</CustomLink>
                     ))}
                 </p>
             </div>

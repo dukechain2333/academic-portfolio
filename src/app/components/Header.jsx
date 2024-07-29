@@ -5,6 +5,7 @@ import {faBars, faTimes} from '@fortawesome/free-solid-svg-icons';
 import personalInfo from '../../../data/personalInfo.json';
 import publications from '../../../data/publications.json';
 import projects from '../../../data/projects.json';
+import research from '../../../data/research.json';
 
 function Header({scrolled}) {
     const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,7 @@ function Header({scrolled}) {
                     <nav className="hidden md:flex items-center space-x-4">
                         <NavLink title="About" href="/"/>
                         {publications.publications.length > 0 && (<NavLink title="Publications" href="/publications"/>)}
-                        <NavLink title="Research" href="/research"/>
+                        {research.research.length > 0 && (<NavLink title="Research" href="/research"/>)}
                         {projects.projects.length > 0 && (<NavLink title="Projects" href="/projects"/>)}
                     </nav>
                     <div className="md:hidden">
@@ -37,9 +38,9 @@ function Header({scrolled}) {
             {isOpen && (
                 <nav className="md:hidden flex flex-col items-start space-y-4 p-4">
                     <NavLink title="About" href="/"/>
-                    <NavLink title="Publications" href="/publications"/>
-                    <NavLink title="Research" href="/research"/>
-                    <NavLink title="Projects" href="/projects"/>
+                    {publications.publications.length > 0 && (<NavLink title="Publications" href="/publications"/>)}
+                    {research.research.length > 0 && (<NavLink title="Research" href="/research"/>)}
+                    {projects.projects.length > 0 && (<NavLink title="Projects" href="/projects"/>)}
                 </nav>
             )}
         </header>
