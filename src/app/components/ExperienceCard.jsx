@@ -6,13 +6,13 @@ function ExperienceCard({ item }) {
     const cardContent = (
         <>
             <div className="flex flex-col md:flex-row justify-between">
-                <div className="mb-2 md:mb-0 md:w-1/2">
+                <div className="mb-2 md:mb-0 md:w-2/3">
                     <div className="font-semibold text-xl mb-2">{item.title}</div>
                     <div className="text-gray-600 mb-1 italic">{item.company}</div>
                     {item.project_name && <div className="text-gray-600 mb-1 italic"><span className="font-medium">Project:</span> {item.project_name}</div>}
                     {item.instructor && <div className="text-gray-600 mb-1 italic"><span className="font-medium">Instructor:</span> {item.instructor}</div>}
                 </div>
-                <div className="md:w-1/2 text-left md:text-right">
+                <div className="md:w-1/3 text-left md:text-right">
                     <div className="text-gray-600 mb-1">{item.start_date} - {item.end_date}</div>
                     <div className="text-gray-600 mb-1">{item.location}</div>
                 </div>
