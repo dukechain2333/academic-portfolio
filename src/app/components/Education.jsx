@@ -1,7 +1,7 @@
 import experience from '../../../data/experience.json';
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faExternalLinkAlt} from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Education() {
@@ -20,7 +20,7 @@ export default function Education() {
 }
 
 
-function EducationCard({ item }) {
+function EducationCard({item}) {
     const cardContent = (
         <>
             <div className="flex flex-col md:flex-row justify-between">
@@ -42,7 +42,7 @@ function EducationCard({ item }) {
                 {item.courses.length > 0 && (
                     <div className="mb-4">
                         <div className="font-medium">Courses:</div>
-                        <ul className="list-disc list-inside grid grid-cols-1 md:grid-cols-3 gap-x-4">
+                        <ul className="list-disc list-inside grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4">
                             {item.courses.map((course, index) => (
                                 <li key={index} className="mr-2">{course}</li>
                             ))}
@@ -62,16 +62,17 @@ function EducationCard({ item }) {
             </div>
             {item.href && (
                 <div className="absolute bottom-2 right-2 hidden md:block">
-                    <FontAwesomeIcon icon={faExternalLinkAlt} className="text-gray-600" />
+                    <FontAwesomeIcon icon={faExternalLinkAlt} className="text-gray-600"/>
                 </div>
             )}
         </>
     );
 
     return item.href ? (
-        <a href={item.href} className="block relative mb-6 p-4 bg-amber-50 shadow-md rounded-lg hover:bg-amber-100 hover:shadow-lg transition active:bg-amber-200">
+        <a href={item.href}
+           className="block relative mb-6 p-4 bg-amber-50 shadow-md rounded-lg hover:bg-amber-100 hover:shadow-lg transition active:bg-amber-200">
             <div className="absolute top-2 right-2 md:hidden">
-                <FontAwesomeIcon icon={faExternalLinkAlt} className="text-gray-600" />
+                <FontAwesomeIcon icon={faExternalLinkAlt} className="text-gray-600"/>
             </div>
             {cardContent}
         </a>

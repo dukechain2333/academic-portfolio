@@ -25,28 +25,29 @@ function NameCard() {
                         {personalInfo.research_interests.join(' | ')}
                     </div>
                     <div
-                        className="flex flex-col md:flex-row items-center md:items-center mt-2 justify-center md:justify-end space-y-2 md:space-y-0 md:space-x-2">
+                        className="flex flex-col md:flex-row md:flex-wrap items-center md:items-center mt-2 justify-center md:justify-end space-y-2 md:space-y-0 md:space-x-2">
                         <div className="flex items-center justify-center">
-                            <FontAwesomeIcon icon={faFile} className="mr-2 text-xl"/>
+                            <FontAwesomeIcon icon={faFile} className="text-xl mr-2"/>
                             <a href={personalInfo.cv_link} className="text-blue-600 hover:underline">
                                 Download CV
                             </a>
                         </div>
                         <div className="flex items-center justify-center">
-                            <FontAwesomeIcon icon={faSchool} className="mr-2 text-xl"/>
+                            <FontAwesomeIcon icon={faSchool} className="text-xl mr-2"/>
                             <a href={personalInfo.work_place_url} className="text-blue-600 hover:underline">
                                 {personalInfo.work_place}
                             </a>
                         </div>
-                        <div className="flex items-center justify-center mt-2 md:mt-0">
-                            <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-xl"/>
+                        <div className="flex items-center justify-center">
+                            <FontAwesomeIcon icon={faEnvelope} className="text-xl mr-2"/>
                             <a href={`mailto:${personalInfo.email}`} className="text-blue-600 hover:underline">
                                 {personalInfo.email}
                             </a>
                         </div>
                     </div>
-                    <div className="flex flex-col md:flex-row items-center md:items-center mt-4 justify-center md:justify-end">
-                        <SocialMedia />
+                    <div
+                        className="flex flex-col md:flex-row items-center md:items-center mt-4 justify-center md:justify-end">
+                        <SocialMedia/>
                     </div>
                 </div>
             </div>
