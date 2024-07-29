@@ -64,7 +64,7 @@ function ProjectCard({project}) {
 
     return (
         <div
-            className="block relative mb-6 bg-amber-50 rounded-lg shadow-md hover:shadow-lg transition">
+            className="block relative mb-6 bg-amber-50 hover:bg-amber-100 rounded-lg shadow-md hover:shadow-lg transition">
             {cardContent}
         </div>
     );
